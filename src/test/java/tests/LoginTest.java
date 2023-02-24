@@ -25,7 +25,7 @@ public class LoginTest extends TestBase{
 		Assert.assertEquals(flag, true, "Username element not displayed");
 
 		String username = homePage.getUserName();
-		Assert.assertEquals(username, "Sumit Rana");
+		Assert.assertEquals(username, "Paul Collings");
 	
 	}	
 	
@@ -38,7 +38,7 @@ public class LoginTest extends TestBase{
 		boolean isPresent = login.isInvalidCredMsgPresent();
 		Assert.assertEquals(isPresent, true);
 		String actual = login.getInvalidMsgText();
-		Assert.assertEquals(actual, "Invalid credentials1");
+		Assert.assertEquals(actual, "Invalid credentials");
 	}
 	
 	@Test

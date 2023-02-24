@@ -36,7 +36,7 @@ public class HomeTest extends TestBase{
 		
 		
 		Assert.assertEquals(homePage.isUserNamePresent(), true);
-		Assert.assertEquals(homePage.getUserName(), "paul colling");
+		Assert.assertEquals(homePage.getUserName(), "Paul Collings");
 		
 		ArrayList<String> list = homePage.getLinks();
 		

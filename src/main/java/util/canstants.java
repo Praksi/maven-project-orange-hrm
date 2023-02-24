@@ -2,6 +2,6 @@ package util;
 
 public class canstants {
 
-	public static final String SUMIT_RANA ="Sumit Rana";
-	
+	public static final String PAULCOLLINGS ="Paul Collings";
+	public static final String JACK ="jack";
 }
